@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_university_group.sql
+      author: ilya.iuzhin
+      sqlFile:
+        path: dictionary/create_university_group.sql
+        splitStatements: false
+        relativeToChangelogFile: true
+  - changeSet:
+      id: create_student.sql
+      author: ilya.iuzhin
+      sqlFile:
+       path: dictionary/create_student.sql
+       splitStatements: false
+       relativeToChangelogFile: true
+
