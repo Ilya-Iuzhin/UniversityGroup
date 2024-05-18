@@ -15,7 +15,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Table(name = "student")
-
 @Getter
 @Setter
 @AllArgsConstructor
